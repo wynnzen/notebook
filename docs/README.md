@@ -1,9 +1,6 @@
 # 日常
 
-
-
-
-
+> https://wynnzen.github.io/notebook
 
 人生
 * [爱的理解](爱的理解)
