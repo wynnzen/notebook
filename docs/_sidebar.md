@@ -1,4 +1,4 @@
-
+* [首页](/)
 * [apply链接对象构造器](apply链接对象构造器)
 * [block和inline，inline-block](block和inline，inline-block)
 * [call，apply和bind的区别](call，apply和bind的区别)
@@ -37,7 +37,7 @@
 * [react-jsx](react-jsx)
 * [react-props](react-props)
 * [react的一些知识点](react的一些知识点)
-* [README](README)
+
 * [redux的知识点](redux的知识点)
 * [this优先级](this优先级)
 * [todoRead](todoRead)

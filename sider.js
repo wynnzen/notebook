@@ -1,18 +1,19 @@
 'use strict';
 
 const fs = require('fs')
-const {resolve,extname,basename} = require('path')
+const { resolve, extname, basename } = require('path')
 const glob = require('glob')
 
 let fileList = glob.sync(resolve(__dirname, './docs', '**/*.md')) // 遍历该目录底下的所有文件
-.map((file)=>{
-  var extension = extname(file); //  获取后缀名
-  var fileName = basename(file,extension); // 获取没有后缀的文件名
-  if(fileName === '_sidebar') return
-  return `* [${fileName}](${fileName})`
-})
+  .map((file) => {
+    var extension = extname(file); //  获取后缀名
+    var fileName = basename(file, extension); // 获取没有后缀的文件名
+    if (fileName === '_sidebar' || fileName === 'README') return
+    return `* [${fileName}](${fileName})`
+  })
 
 let content = fileList.join('\n')
+content = `* [首页](/)` + content
 
 // 写入 siderbar 文件
 
