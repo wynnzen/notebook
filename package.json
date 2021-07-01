@@ -1,0 +1,11 @@
+{
+  "name": "notebook",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/wynnzen/notebook.git",
+  "author": "wynnzen <5346458+wynnzen@users.noreply.github.com>",
+  "license": "MIT",
+  "dependencies": {
+    "glob": "^7.1.7"
+  }
+}
