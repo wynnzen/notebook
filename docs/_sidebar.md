@@ -39,7 +39,6 @@
 * [react-jsx](react-jsx)
 * [react-props](react-props)
 * [react的一些知识点](react的一些知识点)
-
 * [redux的知识点](redux的知识点)
 * [this优先级](this优先级)
 * [todoRead](todoRead)
