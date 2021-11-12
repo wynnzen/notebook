@@ -1,4 +1,1 @@
-# 日常
-
-> https://wynnzen.github.io/notebook
-
+# 笔记本
