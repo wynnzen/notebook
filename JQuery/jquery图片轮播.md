@@ -1,7 +1,7 @@
 # jquery 图片轮播
 
 
-```
+```javascript
 ;(function($,window,document,undefined){
     /*****定义Banner的构造函数******/
     //将变量定义到对象的属性上，函数变成对象的方法，使用时通过对象获取

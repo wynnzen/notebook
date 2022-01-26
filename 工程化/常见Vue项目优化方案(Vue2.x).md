@@ -64,7 +64,7 @@ module.exports = {
 
 ## 开启Gzip压缩
 
-[判断浏览器请求的文件是否已经开启了gzip](https://github.com/wynnzen/notebook/blob/master/%E5%B7%A5%E5%85%B7/%E5%A6%82%E4%BD%95%E5%9C%A8%E5%BC%80%E5%8F%91%E8%80%85%E5%B7%A5%E5%85%B7%E4%B8%AD%E5%BC%80%E5%90%AFgzip.md)
+[判断浏览器请求的文件是否已经开启了gzip](./如何在开发者工具中开启gzip.md)
 
 安装`compression-webpack-plugin`
 

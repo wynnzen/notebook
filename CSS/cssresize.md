@@ -11,7 +11,7 @@ div {
 }
 ```
 
-https://www.w3schools.com/cssref/css3_pr_resize.asp
+> https://www.w3schools.com/cssref/css3_pr_resize.asp
 
 
 

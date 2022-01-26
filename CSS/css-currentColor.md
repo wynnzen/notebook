@@ -1,8 +1,6 @@
 # currentColor
 
-
-
-```
+```css
 div { 
   color: red; 
   border: 5px solid currentColor;
@@ -12,12 +10,13 @@ div {
 
 currentColor会继承父元素的color
 
-```
+```css
 body { color: red; }
 div { border: 5px solid currentColor; }
 ```
 
-```
+这里如果有多个color的重复声明，那么currentColor会以最后一个color的为准
+```css
 div {
 
    color: red;
@@ -30,10 +29,8 @@ div {
  }
 ```
 
-这里如果有多个color的重复声明，那么currentColor会以最后一个color的为准
+
 
 参考链接
 
 > https://css-tricks.com/currentcolor/
->
-> 
