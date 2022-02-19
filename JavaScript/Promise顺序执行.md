@@ -67,3 +67,7 @@ function queuePromise(ajaxArray) {
   return run();
 }
 ```
+3. promise.all
+4. yield
+5. co
+  
